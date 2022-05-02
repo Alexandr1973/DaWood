@@ -1,0 +1,1 @@
+Открыть от имени администратора файл stlink_winusb_install.bat

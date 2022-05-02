@@ -1,0 +1,34 @@
+<RCC>
+<qresource prefix="/icons">
+    <file>res/VnimsDataLogger2.ico</file>
+    <file>res/usb_cable.png</file>
+    <file>res/telemetry.png</file>
+    <file>res/synchro.png</file>
+    <file>res/moreinfo.jpg</file>
+    <file>res/settings_on.png</file>
+    <file>res/rssi_5.png</file>
+    <file>res/rssi_3.png</file>
+    <file>res/rssi_1.png</file>
+    <file>res/refresh.png</file>
+    <file>res/placeholder.png</file>
+    <file>res/pie-chart.png</file>
+    <file>res/maps.png</file>
+    <file>res/logs.png</file>
+    <file>res/img_369356.png</file>
+    <file>res/home.png</file>
+    <file>res/cpu.png</file>
+    <file>res/chartsLines.png</file>
+    <file>res/battery_charge.png</file>
+
+ </qresource>
+
+ <qresource prefix="/image">
+    <file>res/office_house.png</file>
+    <file>res/logo_text.png</file>
+    <file>res/logo_hres.png</file>
+    <file>res/working_wait.png</file>
+    <file>res/instruction_bootloader.png</file>
+    <file>res/instruction_bootloader_swInvalid.png</file>
+    <file>res/instruction_bootloader_mini.png</file>
+ </qresource>
+ </RCC>
