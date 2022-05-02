@@ -1756,7 +1756,7 @@ text-align: top
               <rect>
                <x>260</x>
                <y>400</y>
-               <width>172</width>
+               <width>188</width>
                <height>27</height>
               </rect>
              </property>
@@ -2236,8 +2236,8 @@ text-align: top
             <rect>
              <x>20</x>
              <y>60</y>
-             <width>243</width>
-             <height>28</height>
+             <width>252</width>
+             <height>30</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_15">
@@ -2300,7 +2300,7 @@ text-align: top
            <rect>
             <x>60</x>
             <y>20</y>
-            <width>285</width>
+            <width>288</width>
             <height>32</height>
            </rect>
           </property>
@@ -2397,8 +2397,8 @@ text-align: top
            <rect>
             <x>30</x>
             <y>190</y>
-            <width>330</width>
-            <height>88</height>
+            <width>343</width>
+            <height>95</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_5">
@@ -2601,7 +2601,7 @@ text-align: top
            <rect>
             <x>60</x>
             <y>60</y>
-            <width>222</width>
+            <width>228</width>
             <height>32</height>
            </rect>
           </property>
@@ -2682,7 +2682,7 @@ text-align: top
            <rect>
             <x>60</x>
             <y>100</y>
-            <width>237</width>
+            <width>240</width>
             <height>32</height>
            </rect>
           </property>
@@ -2892,8 +2892,8 @@ text-align: top
            <rect>
             <x>20</x>
             <y>391</y>
-            <width>185</width>
-            <height>80</height>
+            <width>195</width>
+            <height>86</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_12">
@@ -3155,7 +3155,7 @@ text-align: top
             <x>10</x>
             <y>80</y>
             <width>531</width>
-            <height>28</height>
+            <height>30</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_37">
@@ -3545,63 +3545,6 @@ QPushButton:focus
         </property>
        </widget>
       </widget>
-      <widget class="QWidget" name="tab_2">
-       <attribute name="icon">
-        <iconset resource="resource.qrc">
-         <normaloff>:/icons/res/telemetry.png</normaloff>:/icons/res/telemetry.png</iconset>
-       </attribute>
-       <attribute name="title">
-        <string>Телеметрия</string>
-       </attribute>
-       <widget class="QWidget" name="layoutWidget_1">
-        <property name="geometry">
-         <rect>
-          <x>390</x>
-          <y>160</y>
-          <width>191</width>
-          <height>111</height>
-         </rect>
-        </property>
-        <layout class="QVBoxLayout" name="verticalLayout_4">
-         <item>
-          <widget class="QLineEdit" name="lineEdit_5">
-           <property name="inputMask">
-            <string/>
-           </property>
-           <property name="text">
-            <string/>
-           </property>
-           <property name="placeholderText">
-            <string>example@example.com</string>
-           </property>
-           <property name="clearButtonEnabled">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLineEdit" name="lineEdit_6">
-           <property name="text">
-            <string/>
-           </property>
-           <property name="placeholderText">
-            <string>Пароль</string>
-           </property>
-           <property name="clearButtonEnabled">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pushButton_8">
-           <property name="text">
-            <string>Войти</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </widget>
-      </widget>
      </widget>
     </item>
    </layout>
@@ -3612,7 +3555,7 @@ QPushButton:focus
      <x>0</x>
      <y>0</y>
      <width>1017</width>
-     <height>25</height>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">

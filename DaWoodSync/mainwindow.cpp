@@ -9,33 +9,10 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-//    QSqlDatabase db2 = QSqlDatabase::addDatabase("QMYSQL");
-//    db2.setHostName("134.0.112.143");
-//    db2.setDatabaseName("systems");
-//    db2.setUserName("only4test");
-//    db2.setPassword("`!Q2w3e4r%T");
-//    bool ok = db2.open();
-//    if (ok)
-//    {
-//        QSqlQuery query(db2);
-//        query.prepare( "SELECT * FROM status WHERE id = 1" );
-//        if (!query.exec())
-//        {
-//            qDebug() << "Error" << query.lastError();
-//        }
-//        query.first();
-//        qDebug() << query.value("rssi").toInt();
-//        db2.close();
-//        QSqlDatabase::removeDatabase("systems");
-//        db2.removeDatabase("systems");
-//    }
+    //===general=======================================================================================================
 
-//    qDebug() << ok;
-    QSettings settings("HKEY_LOCAL_MACHINE",
-                            QSettings::NativeFormat);
-    QString bios = settings.value("HKEY_LOCAL_MACHINE\\HARDWARE\\DESCRIPTION\\System\\BIOS\\SystemProductName\\.").toString();
-    qDebug() << "Reestr" << bios;
 
+    //===tab1==========================================================================================================
     ui->timeEdit_StartRequestSensors->setDisabled(true);
     ui->radioButton_c2s_modeEveryMonth->setDisabled(true);
     //ui->radioButton_c2s_modeEveryweek->setDisabled(true);
@@ -65,6 +42,7 @@ MainWindow::MainWindow(QWidget *parent)
         ui->comboBox->addItem(port.portName() + " (" + port.description() + ')');
     }
 
+    /*
     db = new pc_database();
     ui->checkBox_CalculateDataLogsByPassport->setChecked(db->getParameter(3).toInt() > 0 ? true : false);
     ui->checkBox_isOpenFolderBeforeSync->setChecked(db->getParameter(5).toInt() > 0 ? true : false);
@@ -73,10 +51,8 @@ MainWindow::MainWindow(QWidget *parent)
     {
         ui->lineEdit_ViewPathFileFirmware->setText(db->getParameter(4));
     }
+    */
 
-//    for (int i = 0; i < 200; i++)
-       // ui->listWidget->addItem(QString::number(i + 1) + "Hello");
-//    ui->textBrowser->insertPlainText(QString::number(i + 1) + "Hello\n");
 }
 
 void MainWindow::batteryLevelChanged(int nValue)
@@ -376,9 +352,9 @@ void MainWindow::DataProcessingIsEnd(int operation)
 
         if (ui->checkBox_isOpenFolderBeforeSync->isChecked() == true)
         {
-            p.append(db->getParameter(1).replace("/","\\"));
-            qDebug() << p.first();
-            QProcess::startDetached("explorer", p);
+            //p.append(db->getParameter(1).replace("/","\\"));
+            //qDebug() << p.first();
+            //QProcess::startDetached("explorer", p);
         }
         ui->pushButton_SyncData->setText("Данные загружены. Загрузить еще раз");
     }
